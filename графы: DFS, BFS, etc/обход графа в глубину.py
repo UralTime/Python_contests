@@ -10,5 +10,5 @@ def dfs(v):
 n, ver = map(int, input().split())
 g = [[int(elem) for elem in input().split()] for i in range(n)]
 used = [False] * n
-dfs(ver - 1)
+dfs(ver)
 print(used.count(True))
